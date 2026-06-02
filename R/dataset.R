@@ -298,7 +298,7 @@ dc_download <- function(client, dataset_id, output_path,
 
 validate_dataset_id <- function(dataset_id) {
   if (!is.character(dataset_id) || length(dataset_id) != 1L || !nzchar(dataset_id) ||
-      is.na(dataset_id)) {
+        is.na(dataset_id)) {
     rlang::abort("`dataset_id` must be a non-empty character string.")
   }
   invisible(dataset_id)

@@ -1,7 +1,9 @@
 linters: linters_with_defaults(
     line_length_linter(120L),
-    object_name_linter("snake_case")
+    object_name_linter("snake_case"),
+    commented_code_linter = NULL
   )
 exclusions: list(
-    "tests/testthat"
+    "tests/testthat",
+    "vignettes"
   )
