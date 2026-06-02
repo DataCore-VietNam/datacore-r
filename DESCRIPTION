@@ -1,0 +1,38 @@
+Package: datacore
+Type: Package
+Title: Official R Client for DataCore Vietnamese Financial Data
+Version: 0.1.0
+Date: 2026-05-29
+Authors@R: person(
+    "DataCore Vietnam",
+    role  = c("aut", "cre"),
+    email = "dev@datacore.vn",
+    comment = c(url = "https://datacore.vn")
+  )
+Description: Access Vietnamese financial, alternative, and economic data from
+    the DataCore catalog via R. Tibble-native, tidyverse-compatible, with
+    built-in pagination, retry, and rate-limit handling.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Language: en-US
+Depends: R (>= 4.1)
+Imports:
+    httr2,
+    tibble,
+    jsonlite,
+    rlang,
+    utils
+Suggests:
+    testthat (>= 3.0.0),
+    httptest2,
+    withr,
+    knitr,
+    rmarkdown,
+    dplyr,
+    tidyquant
+VignetteBuilder: knitr
+URL: https://datacoresvietnam.github.io/datacore-r/, https://github.com/DataCore-VietNam/datacore-r
+BugReports: https://github.com/DataCore-VietNam/datacore-r/issues
+RoxygenNote: 7.3.1
+Config/testthat/edition: 3
+Config/Needs/website: pkgdown

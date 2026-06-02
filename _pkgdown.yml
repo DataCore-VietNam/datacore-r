@@ -1,0 +1,69 @@
+url: https://DataCore-VietNam.github.io/datacore-r/
+
+template:
+  bootstrap: 5
+  bootswatch: flatly
+  bslib:
+    primary: "#1a73e8"
+
+home:
+  title: "datacore - Vietnamese Financial Data for R"
+  description: >
+    Official R client for the DataCore catalog of Vietnamese financial,
+    alternative, and economic data. Tibble-native, tidyverse-compatible.
+  links:
+    - text: DataCore platform
+      href: https://datacore.vn
+    - text: API reference
+      href: https://api.datacore.vn/docs
+    - text: Report a bug
+      href: https://github.com/DataCore-VietNam/datacore-r/issues
+
+navbar:
+  structure:
+    left: [intro, reference, articles, news]
+    right: [search, github]
+  components:
+    github:
+      icon: fa-github
+      href: https://github.com/DataCore-VietNam/datacore-r
+      aria-label: GitHub
+
+reference:
+  - title: "Client"
+    desc: "Create and inspect a DataCore client"
+    contents:
+      - datacore_client
+      - datacore-package
+
+  - title: "Fetch data"
+    desc: "Pull rows from a dataset"
+    contents:
+      - dc_get
+      - dc_collect
+      - dc_download
+      - dc_preview
+
+  - title: "Catalog"
+    desc: "Browse and search available datasets"
+    contents:
+      - dc_search
+      - dc_list_domains
+      - dc_list_products
+      - dc_list_datasets
+
+  - title: "Dataset details"
+    desc: "Inspect metadata, schema, and samples"
+    contents:
+      - dc_metadata
+      - dc_schema
+      - dc_sample
+
+articles:
+  - title: "Get started"
+    navbar: ~
+    contents:
+      - getting-started
+
+news:
+  - one_page: true

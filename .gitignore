@@ -1,0 +1,28 @@
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# R build artefacts
+*.tar.gz
+*.Rcheck/
+datacore.Rcheck/
+datacore_*.tar.gz
+
+# R package docs
+docs/
+pkgdown/
+
+# Test coverage
+coverage/
+.covr/
+
+# Misc
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo

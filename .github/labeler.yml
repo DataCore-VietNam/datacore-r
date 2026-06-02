@@ -1,0 +1,27 @@
+documentation:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "**/*.md"
+          - "man/**"
+          - "vignettes/**"
+          - "_pkgdown.yml"
+          - "README*"
+
+ci:
+  - changed-files:
+      - any-glob-to-any-file: [".github/**"]
+
+tests:
+  - changed-files:
+      - any-glob-to-any-file: ["tests/**"]
+
+r-source:
+  - changed-files:
+      - any-glob-to-any-file: ["R/**"]
+
+dependencies:
+  - changed-files:
+      - any-glob-to-any-file:
+          - "DESCRIPTION"
+          - ".pre-commit-config.yaml"
+          - "renovate.json"
