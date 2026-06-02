@@ -1,4 +1,4 @@
-url: https://DataCore-VietNam.github.io/datacore-r/
+url: https://datacore-vietnam.github.io/datacore-r/
 
 template:
   bootstrap: 5
@@ -14,8 +14,6 @@ home:
   links:
     - text: DataCore platform
       href: https://datacore.vn
-    - text: API reference
-      href: https://api.datacore.vn/docs
     - text: Report a bug
       href: https://github.com/DataCore-VietNam/datacore-r/issues
 

@@ -31,7 +31,7 @@ Suggests:
     dplyr,
     tidyquant
 VignetteBuilder: knitr
-URL: https://datacoresvietnam.github.io/datacore-r/, https://github.com/DataCore-VietNam/datacore-r
+URL: https://datacore-vietnam.github.io/datacore-r/ https://github.com/DataCore-VietNam/datacore-r
 BugReports: https://github.com/DataCore-VietNam/datacore-r/issues
 RoxygenNote: 7.3.1
 Config/testthat/edition: 3

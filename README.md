@@ -23,7 +23,7 @@ pak::pak("DataCore-VietNam/datacore-r")
 
 ## Authentication
 
-Get a free API key at [datacore.vn/keys](https://datacore.vn/keys). Store it in your environment so it is never hardcoded:
+Create a free account at [datacore.vn](https://datacore.vn) to get an API key. Store it in your environment so it is never hardcoded:
 
 ```r
 # Recommended: add to ~/.Renviron (restart R after editing)
@@ -126,7 +126,7 @@ vn30 |>
 | `dc_schema(client, dataset_id)` | Column schema as tibble | Yes |
 | `dc_sample(client, dataset_id, n)` | Random sample rows | Yes |
 
-Full documentation at <https://DataCore-VietNam.github.io/datacore-r/>.
+Full documentation at <https://datacore-vietnam.github.io/datacore-r/>.
 
 ## Error handling
 
@@ -145,9 +145,9 @@ All inherit from `datacore_api_error` for catch-all handling:
 ```r
 tryCatch(
   dc_collect(dc, "equity.vn30.daily"),
-  datacore_auth_error      = function(e) message("Check your API key"),
+  datacore_auth_error       = function(e) message("Check your API key"),
   datacore_rate_limit_error = function(e) message("Slow down"),
-  datacore_api_error       = function(e) message("API error: ", conditionMessage(e))
+  datacore_api_error        = function(e) message("API error: ", conditionMessage(e))
 )
 ```
 
