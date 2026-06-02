@@ -3,7 +3,7 @@ pkgdown: 2.2.0
 pkgdown_sha: ~
 articles:
   getting-started: getting-started.html
-last_built: 2026-06-02T07:03Z
+last_built: 2026-06-02T07:07Z
 urls:
   reference: https://datacore-vietnam.github.io/datacore-r/reference
   article: https://datacore-vietnam.github.io/datacore-r/articles
