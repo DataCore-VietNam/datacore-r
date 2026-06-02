@@ -16,3 +16,4 @@
 ^pkgdown$
 ^datacore\.Rcheck$
 ^datacore_.*\.tar\.gz$
+^\.lintr$

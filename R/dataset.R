@@ -85,7 +85,7 @@ dc_preview <- function(dataset_id, n = 10L,
     httr2::req_timeout(30) |>
     httr2::req_error(is_error = function(resp) FALSE)
   resp <- httr2::req_perform(req)
-  handle_response(resp, path)  |> records_to_tibble()
+  handle_response(resp, path) |> records_to_tibble()
 }
 
 #' Get a sample of rows from a dataset

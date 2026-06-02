@@ -1,4 +1,4 @@
-# datacore <img src="man/figures/logo.png" align="right" height="138" alt="datacore hex sticker" />
+# datacore
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/DataCore-VietNam/datacore-r/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/DataCore-VietNam/datacore-r/actions/workflows/R-CMD-check.yml)
