@@ -24,7 +24,7 @@ dc_collect(
 - client:
 
   A `datacore_client` created with
-  [`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md).
+  [`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md).
 
 - dataset_id:
 
@@ -67,9 +67,9 @@ A single tibble combining all pages.
 
 ## See also
 
-[`dc_get()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_get.md)
+[`dc_get()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_get.md)
 for a single page,
-[`dc_download()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_download.md)
+[`dc_download()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_download.md)
 to save to disk.
 
 ## Examples

@@ -24,7 +24,7 @@ dc_download(
 - client:
 
   A `datacore_client` created with
-  [`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md).
+  [`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md).
 
 - dataset_id:
 
@@ -67,7 +67,7 @@ Invisibly returns a list with `output_path`, `pages_downloaded`, and
 
 ## See also
 
-[`dc_collect()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_collect.md)
+[`dc_collect()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_collect.md)
 to load all rows into memory.
 
 ## Examples

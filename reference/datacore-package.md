@@ -6,7 +6,7 @@ alternative, and economic data.
 ## Getting started
 
 Set the `DATACORE_API_KEY` environment variable (or pass `api_key` to
-[`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md))
+[`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md))
 and construct a client:
 
 

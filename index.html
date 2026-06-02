@@ -74,7 +74,7 @@
 <div class="section level2">
 <h2 id="authentication">Authentication<a class="anchor" aria-label="anchor" href="#authentication"></a>
 </h2>
-<p>Get a free API key at <a href="https://datacore.vn/keys" class="external-link">datacore.vn/keys</a>. Store it in your environment so it is never hardcoded:</p>
+<p>Create a free account at <a href="https://datacore.vn" class="external-link">datacore.vn</a> to get an API key. Store it in your environment so it is never hardcoded:</p>
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="co"># Recommended: add to ~/.Renviron (restart R after editing)</span></span>
 <span><span class="fu">usethis</span><span class="fu">::</span><span class="fu">edit_r_environ</span><span class="op">(</span><span class="op">)</span></span>
@@ -87,7 +87,7 @@
 <h2 id="quick-start">Quick start<a class="anchor" aria-label="anchor" href="#quick-start"></a>
 </h2>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
-<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://datacoresvietnam.github.io/datacore-r/" class="external-link">datacore</a></span><span class="op">)</span></span>
+<code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://datacore-vietnam.github.io/datacore-r/">datacore</a></span><span class="op">)</span></span>
 <span></span>
 <span><span class="va">dc</span> <span class="op">&lt;-</span> <span class="fu"><a href="reference/datacore_client.html">datacore_client</a></span><span class="op">(</span><span class="op">)</span>   <span class="co"># reads DATACORE_API_KEY from environment</span></span>
 <span></span>
@@ -237,7 +237,7 @@
 </tr>
 </tbody>
 </table>
-<p>Full documentation at <a href="https://DataCore-VietNam.github.io/datacore-r/" class="uri">https://DataCore-VietNam.github.io/datacore-r/</a>.</p>
+<p>Full documentation at <a href="https://datacore-vietnam.github.io/datacore-r/" class="uri">https://datacore-vietnam.github.io/datacore-r/</a>.</p>
 </div>
 <div class="section level2">
 <h2 id="error-handling">Error handling<a class="anchor" aria-label="anchor" href="#error-handling"></a>
@@ -275,9 +275,9 @@
 <div class="sourceCode" id="cb8"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span><span class="kw"><a href="https://rdrr.io/r/base/conditions.html" class="external-link">tryCatch</a></span><span class="op">(</span></span>
 <span>  <span class="fu"><a href="reference/dc_collect.html">dc_collect</a></span><span class="op">(</span><span class="va">dc</span>, <span class="st">"equity.vn30.daily"</span><span class="op">)</span>,</span>
-<span>  datacore_auth_error      <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/message.html" class="external-link">message</a></span><span class="op">(</span><span class="st">"Check your API key"</span><span class="op">)</span>,</span>
+<span>  datacore_auth_error       <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/message.html" class="external-link">message</a></span><span class="op">(</span><span class="st">"Check your API key"</span><span class="op">)</span>,</span>
 <span>  datacore_rate_limit_error <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/message.html" class="external-link">message</a></span><span class="op">(</span><span class="st">"Slow down"</span><span class="op">)</span>,</span>
-<span>  datacore_api_error       <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/message.html" class="external-link">message</a></span><span class="op">(</span><span class="st">"API error: "</span>, <span class="fu"><a href="https://rdrr.io/r/base/conditions.html" class="external-link">conditionMessage</a></span><span class="op">(</span><span class="va">e</span><span class="op">)</span><span class="op">)</span></span>
+<span>  datacore_api_error        <span class="op">=</span> <span class="kw">function</span><span class="op">(</span><span class="va">e</span><span class="op">)</span> <span class="fu"><a href="https://rdrr.io/r/base/message.html" class="external-link">message</a></span><span class="op">(</span><span class="st">"API error: "</span>, <span class="fu"><a href="https://rdrr.io/r/base/conditions.html" class="external-link">conditionMessage</a></span><span class="op">(</span><span class="va">e</span><span class="op">)</span><span class="op">)</span></span>
 <span><span class="op">)</span></span></code></pre></div>
 </div>
 <div class="section level2">
@@ -297,7 +297,6 @@
 <li><a href="https://github.com/DataCore-VietNam/datacore-r/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/DataCore-VietNam/datacore-r/issues" class="external-link">Report a bug</a></li>
 <li><a href="https://datacore.vn" class="external-link">DataCore platform</a></li>
-<li><a href="https://api.datacore.vn/docs" class="external-link">API reference</a></li>
 <li><a href="https://github.com/DataCore-VietNam/datacore-r/issues" class="external-link">Report a bug</a></li>
 </ul>
 </div>

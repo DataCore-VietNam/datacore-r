@@ -1,7 +1,7 @@
 # Get one page of rows from a dataset
 
 Fetches a single page of rows from a dataset. Use
-[`dc_collect()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_collect.md)
+[`dc_collect()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_collect.md)
 to fetch all pages automatically, or iterate manually with
 `page = 1L, 2L, ...`.
 
@@ -25,7 +25,7 @@ dc_get(
 - client:
 
   A `datacore_client` created with
-  [`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md).
+  [`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md).
 
 - dataset_id:
 
@@ -61,13 +61,13 @@ dc_get(
 ## Value
 
 A tibble. Columns depend on the dataset; see
-[`dc_schema()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_schema.md).
+[`dc_schema()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_schema.md).
 
 ## See also
 
-[`dc_collect()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_collect.md)
+[`dc_collect()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_collect.md)
 to auto-paginate,
-[`dc_download()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_download.md)
+[`dc_download()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_download.md)
 to save to disk.
 
 ## Examples

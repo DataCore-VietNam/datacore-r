@@ -8,16 +8,16 @@
 ## Citation
 
 Source:
-[`DESCRIPTION`](https://github.com/DataCore-VietNam/datacore-r/blob/v0.1.0/DESCRIPTION)
+[`DESCRIPTION`](https://github.com/DataCore-VietNam/datacore-r/blob/main/DESCRIPTION)
 
 DataCore Vietnam (2026). *datacore: Official R Client for DataCore
 Vietnamese Financial Data*. R package version 0.1.0,
-<https://datacoresvietnam.github.io/datacore-r/>.
+<https://datacore-vietnam.github.io/datacore-r/>.
 
     @Manual{,
       title = {datacore: Official R Client for DataCore Vietnamese Financial Data},
       author = {{DataCore Vietnam}},
       year = {2026},
       note = {R package version 0.1.0},
-      url = {https://datacoresvietnam.github.io/datacore-r/},
+      url = {https://datacore-vietnam.github.io/datacore-r/},
     }

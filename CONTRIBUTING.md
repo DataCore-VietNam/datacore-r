@@ -70,4 +70,4 @@ Please include:
 ## License
 
 By contributing you agree your contributions are licensed under
-[MIT](https://DataCore-VietNam.github.io/datacore-r/LICENSE.md).
+[MIT](https://datacore-vietnam.github.io/datacore-r/LICENSE.md).

@@ -1,7 +1,7 @@
 # Get a sample of rows from a dataset
 
 Useful for previewing what
-[`dc_get()`](https://DataCore-VietNam.github.io/datacore-r/reference/dc_get.md)
+[`dc_get()`](https://datacore-vietnam.github.io/datacore-r/reference/dc_get.md)
 will return without pulling the full time series.
 
 ## Usage
@@ -15,7 +15,7 @@ dc_sample(client, dataset_id, n = 10L)
 - client:
 
   A `datacore_client` created with
-  [`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md).
+  [`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md).
 
 - dataset_id:
 

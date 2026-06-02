@@ -14,7 +14,7 @@ dc_search(client, query, limit = 20L)
 - client:
 
   A `datacore_client` created with
-  [`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md).
+  [`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md).
 
 - query:
 

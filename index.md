@@ -19,8 +19,8 @@ pak::pak("DataCore-VietNam/datacore-r")
 
 ## Authentication
 
-Get a free API key at [datacore.vn/keys](https://datacore.vn/keys).
-Store it in your environment so it is never hardcoded:
+Create a free account at [datacore.vn](https://datacore.vn) to get an
+API key. Store it in your environment so it is never hardcoded:
 
 ``` r
 
@@ -116,7 +116,7 @@ vn30 |>
 
 | Function | Description | Key required |
 |----|----|----|
-| [`datacore_client()`](https://DataCore-VietNam.github.io/datacore-r/reference/datacore_client.md) | Create a client | Yes |
+| [`datacore_client()`](https://datacore-vietnam.github.io/datacore-r/reference/datacore_client.md) | Create a client | Yes |
 | `dc_preview(dataset_id, n)` | Preview rows, no auth | No |
 | `dc_get(client, dataset_id, ...)` | One page of rows | Yes |
 | `dc_collect(client, dataset_id, ...)` | All pages, one tibble | Yes |
@@ -129,7 +129,7 @@ vn30 |>
 | `dc_schema(client, dataset_id)` | Column schema as tibble | Yes |
 | `dc_sample(client, dataset_id, n)` | Random sample rows | Yes |
 
-Full documentation at <https://DataCore-VietNam.github.io/datacore-r/>.
+Full documentation at <https://datacore-vietnam.github.io/datacore-r/>.
 
 ## Error handling
 
@@ -150,19 +150,19 @@ All inherit from `datacore_api_error` for catch-all handling:
 
 tryCatch(
   dc_collect(dc, "equity.vn30.daily"),
-  datacore_auth_error      = function(e) message("Check your API key"),
+  datacore_auth_error       = function(e) message("Check your API key"),
   datacore_rate_limit_error = function(e) message("Slow down"),
-  datacore_api_error       = function(e) message("API error: ", conditionMessage(e))
+  datacore_api_error        = function(e) message("API error: ", conditionMessage(e))
 )
 ```
 
 ## Contributing
 
 See
-[CONTRIBUTING.md](https://DataCore-VietNam.github.io/datacore-r/CONTRIBUTING.md).
+[CONTRIBUTING.md](https://datacore-vietnam.github.io/datacore-r/CONTRIBUTING.md).
 All contributions are welcome.
 
 ## License
 
 MIT – see
-[LICENSE.md](https://DataCore-VietNam.github.io/datacore-r/LICENSE.md).
+[LICENSE.md](https://datacore-vietnam.github.io/datacore-r/LICENSE.md).
