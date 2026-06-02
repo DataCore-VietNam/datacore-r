@@ -1,4 +1,4 @@
-# datacore ![datacore hex sticker](reference/figures/logo.png)
+# datacore
 
 Official R client for [DataCore](https://datacore.vn) – Vietnamese
 financial, alternative, and economic data. Tibble-native,
